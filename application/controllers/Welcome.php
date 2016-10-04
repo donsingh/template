@@ -23,7 +23,8 @@ class Welcome extends CI_Controller {
     $data = array(
       'page_title'        => 'No Title',
       'page_header'       => 'Empty Page',
-      'page_description'  => 'Enter Description Here'
+      'page_description'  => 'Enter Description Here',
+      'footer_text'       => 'University of San Carlos'
     );
 		$this->load->view('header',$data);
 		$this->load->view('empty');
