@@ -20,3 +20,12 @@
 <script src="<?php echo base_url('assets/js/app.min.js');?>"></script>
 </body>
 </html>
+<script>
+$(document).ready(function(){
+    $(".sidebar-menu li").each(function(a,b){
+        if(a == <?php echo $menu_index;?>){
+            $(b).addClass("active");
+        }
+    });
+});
+</script>
